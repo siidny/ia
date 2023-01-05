@@ -819,15 +819,8 @@ section {
 --------------------------------------------------------------*/
 .features {
   padding-bottom: 0;
-  min-height: 500px;
-  background-color: #f7f9fc;
 }
-.features h2 {
-  font-size: 44px ;
-}
-.features p {
-font-size: 18px;
-}
+
 .features h3 {
   color: var(--color-secondary);
   font-size: 32px;
@@ -847,7 +840,7 @@ font-size: 18px;
 }
 
 .features .phone-wrap {
-  position: relative;
+  position: absolute;
   right: 0;
 }
 
