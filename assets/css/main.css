@@ -616,6 +616,9 @@ section {
   .hero .btn-watch-video {
     font-size: 13px;
   }
+  .hero:before {
+    background: rgba(27, 47, 69, 0.4);
+  }
 }
 
 /*--------------------------------------------------------------
