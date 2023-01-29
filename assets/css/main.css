@@ -255,7 +255,7 @@ section {
 }
 
 .header.sticked {
-  background: rgba(27, 47, 69, 0.9);
+  background: rgb(5, 5, 5, .3);
   padding: 12px 0;
 }
 
@@ -505,7 +505,7 @@ section {
 .hero {
   width: 100%;
   min-height: 100vh;
-  background: url("https://doodleipsum.com/2000x2000/hand-drawn?i=8b8c74e274894a5621c03d9050bf5d38") center;
+  background-color: black;
   background-size: cover;
   position: relative;
   padding: 120px 0;
@@ -513,7 +513,7 @@ section {
  
 }
 
-@media (min-width: 1200px) {
+/*@media (min-width: 1200px) {
   .hero:after {
     position: absolute;
     content: "";
@@ -522,9 +522,9 @@ section {
     top: 0;
     bottom: 0;
   }
-}
+}*/
 
-.hero:before {
+/*.hero:before {
   position: absolute;
   content: "";
   background: rgba(27, 47, 69, 0);
@@ -545,7 +545,7 @@ section {
   .hero {
     background-attachment: fixed;
   }
-}
+}*/
 
 .hero h2 {
   margin: 0;
@@ -616,9 +616,9 @@ section {
   .hero .btn-watch-video {
     font-size: 13px;
   }
-  .hero:before {
+  /*.hero:before {
     background: rgba(27, 47, 69, 0.4);
-  }
+  }*/
 }
 
 /*--------------------------------------------------------------
@@ -776,7 +776,7 @@ section {
 # Call To Action Section
 --------------------------------------------------------------*/
 .call-to-action {
-  background: linear-gradient(rgba(27, 47, 69, 0.1), rgba(27, 47, 69, 0.8)), url("https://doodleipsum.com/2000x2000/hand-drawn?i=9b11b7fde5591be86d8928901e68355f") center top;
+  background-color: black;
   background-size: cover;
   padding: 100px 0;
 }
