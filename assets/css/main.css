@@ -94,10 +94,11 @@ section {
   margin-bottom: 0;
 }
 
+
 /*--------------------------------------------------------------
 # Breadcrumbs
 --------------------------------------------------------------*/
-.breadcrumbs {
+/* .breadcrumbs {
   padding: 140px 0 60px 0;
   min-height: 30vh;
   position: relative;
@@ -154,7 +155,7 @@ section {
 /*--------------------------------------------------------------
 # Scroll top button
 --------------------------------------------------------------*/
-.scroll-top {
+/*.scroll-top {
   position: fixed;
   visibility: hidden;
   opacity: 0;
@@ -182,7 +183,7 @@ section {
 .scroll-top.active {
   visibility: visible;
   opacity: 1;
-}
+} */
 
 /*--------------------------------------------------------------
 # Preloader
@@ -255,7 +256,7 @@ section {
 }
 
 .header.sticked {
-  background: rgb(5, 5, 5, .3);
+  background: rgb(5, 5, 5, 1);
   padding: 12px 0;
 }
 
@@ -561,7 +562,7 @@ section {
   padding-left: 20px;
   font-size: 15px;
   font-family: var(--font-default);
-  border-left: 2px solid var(--color-primary);
+  border-left: 2px solid white;
   margin: 40px 0;
 }
 
@@ -575,36 +576,38 @@ section {
   border-radius: 50px;
   transition: 0.5s;
   color: #fff;
-  background: var(--color-primary);
+  background: black;
+  border: 2px solid white;
+  border-color: white ;
 }
 
 .hero .btn-get-started:hover {
-  background: rgba(86, 184, 230, 0.8);
+  background: rgba(155, 155, 153, 0.8);
 }
 
-.hero .btn-watch-video {
+/* .hero .btn-watch-video {
   font-size: 16px;
   transition: 0.5s;
   margin-left: 25px;
   color: #ffffffb3;
   font-weight: 600;
-}
+} */
 
-.hero .btn-watch-video i {
+/* .hero .btn-watch-video i {
   color: #ffffff;
   font-size: 32px;
   transition: 0.3s;
   line-height: 0;
   margin-right: 8px;
-}
+} */
 
-.hero .btn-watch-video:hover {
+/* .hero .btn-watch-video:hover {
   color: #fff;
 }
 
 .hero .btn-watch-video:hover i {
   color: #82cbed;
-}
+} */
 
 @media (max-width: 640px) {
   .hero h2 {
